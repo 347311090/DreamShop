@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <Button
+        android:id="@+id/bt_rg_putong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通注册"
+        android:onClick="clickItem"
+        />
+    <Button
+        android:id="@+id/bt_rg_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickItem"
+        android:text="邮箱注册"/>
+    <Button
+        android:id="@+id/bt_rg_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickItem"
+        android:text="手机注册"
+        />
+</LinearLayout>
